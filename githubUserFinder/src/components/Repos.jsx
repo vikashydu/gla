@@ -19,7 +19,7 @@ const Repos = ({repoUrl}) =>{
     },[repoUrl])
     return (
         <div> 
-           <h2 className="text-2xl font-semibold pb-3"> Repositories</h2>
+           <h2 className="text-2xl font-semibold pb-5"> Repositories</h2>
             <div className="flex flex-wrap gap-5">
             {repos.map((repo)=>{
                     return(
